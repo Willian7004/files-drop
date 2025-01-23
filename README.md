@@ -1,19 +1,19 @@
-# 🎈 Blank app template
+Files Drop
 
-A simple Streamlit app template for you to modify!
+本项目使用Streamlit创建，用于临时保存和预览文件，可以通过文件名前缀实现对私有文件的管理。
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+本项目已部署到Streamlit Cloud，域名为https://william7004-files-drop.streamlit.app 。在Streamlit Cloud使用时，由于重启后不会保留文件，应当尽快取回文件，有条件时优先本地部署。
 
-### How to run it on your own machine
+本地部署流程
 
-1. Install the requirements
+建议使用Python=3.10环境
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+1.安装依赖
+```bash
+pip install -r requirements.txt
+```
+2.运行应用
+```bash
+streamlit run streamlit_app.py
+```
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
